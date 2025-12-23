@@ -8,7 +8,7 @@
     // ========================================
     // ⚠️ ここにパスワードを設定してください
     // ========================================
-    const correctPassword = 'portfolio2025';  // ← ここを変更
+    const correctPassword = 'K7mN9pQr2sT4vWx6yZ8aB3cD5eF1gH0j';  // ← ここを変更
     
     // セッションストレージのキー
     const authKey = 'portfolio_auth';
