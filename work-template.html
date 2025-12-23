@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品タイトル | Portfolio Site</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__logo">
+                <a href="index.html">Portfolio</a>
+            </h1>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="index.html">Works</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <article class="work-detail">
+            <div class="container">
+                <nav class="breadcrumb">
+                    <ul>
+                        <li><a href="index.html">Works</a></li>
+                        <li>作品タイトル</li>
+                    </ul>
+                </nav>
+
+                <div class="work-detail__header">
+                    <p class="work-detail__category">カテゴリー名</p>
+                    <h1 class="work-detail__title">作品タイトル</h1>
+                </div>
+
+                <div class="work-detail__info">
+                    <dl>
+                        <dt>Client</dt>
+                        <dd>クライアント名</dd>
+                        <dt>Date</dt>
+                        <dd>2025年1月</dd>
+                        <!-- URL がある場合は以下を追加 -->
+                        <!-- <dt>URL</dt>
+                        <dd><a href="https://example.com" target="_blank" rel="noopener">https://example.com</a></dd> -->
+                    </dl>
+                </div>
+
+                <div class="work-detail__description">
+                    <h2>概要</h2>
+                    <p>この作品の説明文をここに記載してください。クライアントの要望や制作のポイント、使用した技術などを書きます。</p>
+                </div>
+
+                <div class="work-detail__image-section">
+                    <h2>PC Design</h2>
+                    <div class="work-detail__image work-detail__image--pc">
+                        <img src="assets/images/work01/pc.jpg" alt="作品タイトル - PC版">
+                    </div>
+                </div>
+
+                <div class="work-detail__image-section">
+                    <h2>SP Design</h2>
+                    <div class="work-detail__image work-detail__image--sp">
+                        <img src="assets/images/work01/sp.jpg" alt="作品タイトル - SP版">
+                    </div>
+                </div>
+
+                <div class="work-detail__back">
+                    <a href="index.html" class="btn btn--back">一覧に戻る</a>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copyright">&copy; 2025 Portfolio Site. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

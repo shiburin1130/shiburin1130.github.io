@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works | Portfolio Site</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__logo">
+                <a href="index.html">Portfolio</a>
+            </h1>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="index.html" class="active">Works</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero__title">Creative Works</h2>
+                <p class="hero__subtitle">Webデザイン実績</p>
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="container">
+                <div class="works__grid">
+                    <!-- 作品1 -->
+                    <article class="work-card">
+                        <a href="work01.html" class="work-card__link">
+                            <div class="work-card__image">
+                                <img src="assets/images/work01/thumbnail.jpg" alt="Work 01">
+                            </div>
+                            <div class="work-card__content">
+                                <h3 class="work-card__title">Corporate Website</h3>
+                                <p class="work-card__category">コーポレートサイト</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- 作品2 -->
+                    <article class="work-card">
+                        <a href="work02.html" class="work-card__link">
+                            <div class="work-card__image">
+                                <img src="assets/images/work02/thumbnail.jpg" alt="Work 02">
+                            </div>
+                            <div class="work-card__content">
+                                <h3 class="work-card__title">E-commerce Site</h3>
+                                <p class="work-card__category">ECサイト</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- 作品3 -->
+                    <article class="work-card">
+                        <a href="work03.html" class="work-card__link">
+                            <div class="work-card__image">
+                                <img src="assets/images/work03/thumbnail.jpg" alt="Work 03">
+                            </div>
+                            <div class="work-card__content">
+                                <h3 class="work-card__title">Landing Page</h3>
+                                <p class="work-card__category">ランディングページ</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copyright">&copy; 2025 Portfolio Site. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
